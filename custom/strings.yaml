@@ -1,0 +1,21 @@
+branding:
+  name:  Axle Library
+  org: Axle Payments
+  orgDomain: axlepayments.com
+  prettyName: Axle Library
+  favicon: /assets/images/library.ico
+
+landing:
+  tagline: Everything you need to know to be awesome at Axle.
+  viewAll: View All Docs
+  quickLink: <a href="/get-started">Get started</a>.
+
+footer:
+  helpText: It's up to everyone to keep our Library updated. If you need help, ask on the 'admin' Slack channel.
+  defaultEmail: engineering@axlepayments.com
+
+search:
+  placeholder: Search...
+  results:
+    none:
+      suggestion: To request a new page, ask on the 'admin' Slack channel.

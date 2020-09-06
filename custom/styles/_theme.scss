@@ -1,0 +1,31 @@
+// Fonts
+//------------------------------------------------------------------------------
+// Font imports
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+
+$font-branding: 'Lato', sans-serif;
+$font-headline: 'Lato', sans-serif;
+$font-sans: 'Lato', sans-serif;
+
+// Default Light Theme
+$masthead-background: #10334d;
+$main-homepage-background: $white;
+$main-homepage-icon-color: $black;
+$main-homepage-icon-border: $black;
+$main-page-text-color: $gray-50;
+$main-page-btn-color: $gray-50;
+$search-container-background: $offwhite;
+$search-container-hover: $accent-lightest;
+$btn-homepage-background: $white;
+$btn-homepage-border: $black;
+$btn-default-background: $white;
+$btn-default-background-hover: $accent;
+$btn-default-border: $black;
+$btn-default-text-color: $black;
+$btn-default-text-hover: $black;
+$btn-user-initial: $gray-50;
+$elem-link-color: $gray-70;
+$elem-active-link-color: $black;
+$elem-link-accent: $accent;
+$nav-text-color: $gray-50;
+
