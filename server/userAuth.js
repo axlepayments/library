@@ -51,7 +51,10 @@ const md5 = (data) => crypto.createHash('md5').update(data).digest('hex')
 router.use(session({
   secret: process.env.SESSION_SECRET,
   resave: true,
-  saveUninitialized: true
+  saveUninitialized: true,
+  cookie: {
+    maxAge:  (30 * 86400 * 1000)
+  }
 }))
 
 router.use(passport.initialize())
